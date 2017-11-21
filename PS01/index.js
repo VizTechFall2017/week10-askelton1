@@ -3,7 +3,7 @@ var height = document.getElementById('svg') .clientHeight;
 
 console.log(width,height);
 
-//document.body.style.backgroundImage = "url('https://s-media-cache-ak0.pinimg.com/originals/7b/ef/15/7bef154dc7dd0cb3fdebaae1250ff2ce.jpg')";
+document.body.style.backgroundImage = "url('https://s-media-cache-ak0.pinimg.com/originals/7b/ef/15/7bef154dc7dd0cb3fdebaae1250ff2ce.jpg')";
 
 var marginLeft = 0;
 var marginTop = 0;
