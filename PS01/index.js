@@ -115,9 +115,9 @@ d3.json('./cb_2016_us_state_20m.json', function(dataIn){
         .attr("id", "rectLabel");
 
     svg.append('text')
-        //.text('<< info on states will go here on mouseover >>')
-        .text(function(d){return d;})
-        .attr('x', 400)
+        .text('Hover over states to see how marijuana laws vary across the U.S. ')
+        //.text(function(d){return d;})
+        .attr('x', 325)
         .attr('y', 100)
         .attr('fill', 'green');
 
